@@ -1,5 +1,6 @@
 # alfred-volume
 Alfred workflow for controlling system volume
+
 This workflow allows for control of the system volume. It broadly emulates the keystrokes of F10/F11/F12 - this is usually simulated by `tell application "System Events" to key code [73/74/75]`, however this has been broken for some time (it works for most keys, but not for 73/74/75).
 
 It is useable from both the standard Alfred interface (keyword `Volume`, arguments `up`,`down`,`nudge up`,`nudge down`,`mute`) or through Alfred Remote.
